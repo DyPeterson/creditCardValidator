@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 200px;
+}
+form label {
+  font-size: 25px;
+}
+form input {
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+form button {
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+  background-color: lightblue;
+  border: none;
+}
+form button:hover {
+  background-color: rgb(139, 139, 219);
+  cursor: pointer;
+}
+p {
+  text-align: center;
+}
